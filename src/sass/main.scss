@@ -2,3 +2,27 @@
 // @import "./bootstrap-utilities";
 
 @import "./../../node_modules/bootstrap/scss/bootstrap";
+
+body{
+  background: #072F5F;
+}
+.container{
+  max-width: 400px;
+}
+
+
+input[type=text],
+input[type=text]:focus{
+  color: #fff;
+  border: none;
+  background: rgba(0,0,0,0.2);
+  max-width: 400px;
+}
+
+.todos li{
+  background: #1261A0;
+}
+
+.delete{
+  cursor: pointer;
+}
